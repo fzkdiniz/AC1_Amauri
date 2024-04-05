@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TESTE CSS2</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="sidebar">
+        <h2>SIDEBAR </h2>
+        <ul>
+            <li><a href="#">Eu sou a opção 1</a></li>
+            <li><a href="#">Eu a  2</a></li>
+            <li><a href="#">E eu a 3</a></li>
+        </ul>
+    </div>
+    <div class="main-content">
+        <h1>Conteúdo Principal</h1>
+        <p>LTESTEEEEEEEEEEEEEEEE.</p>
+    </div>
+</body>
+</html>
