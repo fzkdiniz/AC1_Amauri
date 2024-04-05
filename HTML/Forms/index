@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Curso</title>
+    <link rel="stylesheet" href="C:\Users\Dark Wizard\OneDrive - Raccoon Informatica\Documentos\Facens\3 Semestre\Linguagens\HTML\Forms\css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="text">
+           Dados do Aluno
+        </div>
+        <form action="https://660f5a7f356b87a55c513ac5.mockapi.io/:endpoint" method="POST">
+           <div class="form-row">
+              <div class="input-data">
+                 <input type="text" name="nome" required>
+                 <div class="underline"></div>
+                 <label for="">Nome do Aluno</label>
+              </div>
+              <div class="input-data">
+                 <input type="text" required name="endereco">
+                 <div class="underline"></div>
+                 <label for="">Endereço</label>
+              </div>
+           </div>
+           <div class="form-row">
+              <div class="input-data">
+                 <input type="text" required name="bairro"> 
+                 <div class="underline"></div>
+                 <label for="">Bairro</label>
+              </div>
+              <div class="input-data">
+                 <input type="text" required name="cidade">
+                 <div class="underline"></div>
+                 <label for="">Cidade</label>
+              </div>
+           </div>
+           <div class="form-row">
+            <div class="input-data">
+               <input type="text" required name="numero">
+               <div class="underline"></div>
+               <label for="">Numero</label>
+            </div>
+            <div class="input-data">
+               <input type="text" required name="cep">
+               <div class="underline"></div>
+               <label for="">CEP</label>
+            </div>
+         </div>
+         <div class="form-row">
+            <div class="input-data">
+               <input type="text" required name="complemento">
+               <div class="underline"></div>
+               <label for="">Complemento</label>
+            </div>
+            <div class="input-data">
+               <input type="text" required name="estado">
+               <div class="underline"></div>
+               <label for="">Estado</label>
+            </div>
+         </div>
+         <div class="form-row">
+            <div class="input-data">
+               <input type="text" required name="telefone">
+               <div class="underline"></div>
+               <label for="">Telefone</label>
+            </div>
+            <div class="input-data">
+               <input type="text" required name="celular">
+               <div class="underline"></div>
+               <label for="">Celular</label>
+            </div>
+         </div>
+
+         <div class="form-row">
+            <div class="input-data">
+               <input type="text" required name="email">
+               <div class="underline"></div>
+               <label for="">Email</label>
+            </div>
+            <div class="input-data">
+               <input type="text" required name="cor">
+               <div class="underline"></div>
+               <label for="">Cor</label>
+            </div>
+         </div>
+         <div class="text">
+            Dados do Responsavel
+         </div>
+
+         <div class="form-row">
+            <div class="input-data">
+               <input type="text" required name="nomePai">
+               <div class="underline"></div>
+               <label for="">Nome do Pai:</label>
+            </div>
+            <div class="input-data">
+               <input type="text" required name="nomeMae">
+               <div class="underline"></div>
+               <label for="">Nome da Mae:</label>
+            </div>
+         </div>
+
+         <div class="form-row">
+            <div class="input-data">
+               <input type="date" required name="nascPai">
+               <div class="underline"></div>
+               <label for="">Data Nascimento Pai:</label>
+            </div>
+            <div class="input-data">
+               <input type="date" required name="nascMae">
+               <div class="underline"></div>
+               <label for="">Data Nascimento mãe:</label>
+            </div>
+         </div>
+
+         <div class="form-row">
+            <div class="input-data">
+               <input type="text" required name="natuPai">
+               <div class="underline"></div>
+               <label for="">Naturalidade Pai</label>
+            </div>
+            <div class="input-data">
+               <input type="text" required name="natuMae">
+               <div class="underline"></div>
+               <label for="">Naturalidade Mae</label>
+            </div>
+         </div>
+
+         <div class="form-row">
+            <div class="input-data">
+               <input type="text" required name="instruPai">
+               <div class="underline"></div>
+               <label for="">Instrução Pai</label>
+            </div>
+            <div class="input-data">
+               <input type="text" required name="instruMae">
+               <div class="underline"></div>
+               <label for="">Instrução Mãe</label>
+            </div>
+         </div>
+
+         <div class="form-row">
+            <div class="input-data">
+               <input type="text" required name="profiPai"> 
+               <div class="underline"></div>
+               <label for="">Profissão Pai</label>
+            </div>
+            <div class="input-data">
+               <input type="text" required name="profiMae">
+               <div class="underline"></div>
+               <label for="">Profissão Mae</label>
+            </div>
+         </div>
+
+         <div class="form-row">
+            <div class="input-data">
+               <input type="text" required name="cellPai">
+               <div class="underline"></div>
+               <label for="">Celular Pai</label>
+            </div>
+            <div class="input-data">
+               <input type="text" required name="cellMae">
+               <div class="underline"></div>
+               <label for="">Celular Mãe</label>
+            </div>
+         </div>
+
+         <div class="form-row">
+            <div class="input-data">
+               <input type="text" required name="emailPai">
+               <div class="underline"></div>
+               <label for="">Email Pai</label>
+            </div>
+            <div class="input-data">
+               <input type="text" required name="emailMae">
+               <div class="underline"></div>
+               <label for="">Email Mãe</label>
+            </div>
+         </div>
+
+         <div class="form-row">
+            <div class="input-data">
+               <input type="text" required name="cpfPai">
+               <div class="underline"></div>
+               <label for="">Cpf Pai</label>
+            </div>
+            <div class="input-data">
+               <input type="text" required name="cpfMae">
+               <div class="underline"></div>
+               <label for="">Cpf Mae</label>
+            </div>
+         </div>
+
+         <div class="form-row">
+            <div class="input-data textarea">
+               <textarea rows="8" cols="80" required name="respfinanceiro"></textarea>
+               <div class="underline"></div>
+               <label for="">Nome do Responsavel Financeiro</label>
+            </div>
+            
+         </div>
+
+
+         <div class="text">
+            Dados do Curso
+         </div>
+
+         <div class="form-row">
+            <div class="input-data">
+               <input type="text" required name="nomeCurso">
+               <div class="underline"></div>
+               <label for="">Nome do Curso</label>
+            </div>
+            <div class="input-data">
+               <input type="date" required name="dataIngresso">
+               <div class="underline"></div>
+               <label for="">Data de Ingresso</label>
+            </div>
+         </div>
+
+         <div class="form-row">
+            <div class="input-data">
+               <input type="text" required name="valor">
+               <div class="underline"></div>
+               <label for="">Valor</label>
+            </div>
+            <div class="input-data">
+               <input type="text" required name="formapgto">
+               <div class="underline"></div>
+               <label for="">forma de pagamento (qtde de parcelas)</label>
+            </div>
+         </div>
+
+
+
+         <div class="form-row submit-btn">
+            <div class="input-data">
+               <div class="inner"></div>
+               <input type="hidden" id="curso" name="idCurso" value="curso2">
+               <input type="submit" value="Submit">
+            </div>
+         </div>
+        </form>
+        </div>
+
+
+</body>
+</html>
