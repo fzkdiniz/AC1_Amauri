@@ -1,0 +1,33 @@
+body {
+     
+    background-color: #f0b070;
+    font-family: 'Arial';
+    margin: 50px 200px;
+   
+}
+
+
+.title {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    font-family: 'Lucida Sans';
+}
+
+.title:hover {
+    background-color: black;
+}
+
+p {
+    text-indent: 20px;
+}
+
+.title-intro {
+    font-weight: bold;  
+    font-size: 20px; 
+}
+
+ol   {
+    text-align: justify;
+}
+
